@@ -1,0 +1,18 @@
+
+mybrand
+ -text-shadow: -4px 0px 0px rgba(23, 186, 134, 1);
+
+base font
+............
+rgb(0,33,23) ------> dark green (base font color)
+
+links
+..........
+#F90566 -----> pink/red (link span hover)
+#52E5B7 -----> neon green (link hover)
+lifgtslategrey ---------->
+
+background
+............
+#0e1112 -----> dark charcoal (header/footer bg)
+#9a9a9a -----> grey (nav/footer color)

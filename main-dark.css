@@ -1,0 +1,467 @@
+.title{
+    background: ;
+    text-align: center;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  #home h1{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+  }
+  i{
+    color: #F90566;
+  }
+  .container-fluid{
+    margin: 0;
+    padding: 0;
+
+  }
+  .row{
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .col-12{
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .navbar{
+    position: fixed;
+    background-color: #353839;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 14px 40px;
+    text-align: center;
+    z-index: 10;
+  }
+  .navbar-nav{
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav-item{
+    margin: 0 16px;
+  }
+  .nav-link{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 0.78rem;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #F90566;
+  }
+  .nav-link:hover{
+    color: #52E5B7;
+    color: #F90566;
+  }
+  .nav-link span{
+    opacity: 0;
+  }
+  .nav-link:hover span{
+    opacity: 1;
+    color: #F90566;
+  }
+
+/*Dropdown icon*/
+.navbar-default .navbar-brand{
+  font-size: 2em;
+  color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: unset;
+}
+.navbar-default .navbar-toggler{
+  border-radius: unset;
+}
+.navbar-default .navbar-toggler i{
+  color: #F90566;
+  font-size: 1.2em;
+}
+
+  footer{
+    position: absolute;
+    width: 100%;
+    background: pink;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: #0e1112;
+  }
+  footer p{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #F90566;
+    opacity: 0.8;
+
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    /*font-size: 0.8rem;*/
+    letter-spacing: 0.9px;
+    font-style: ;
+  }
+
+  #home, #about, #skills, #projects, #resume, #contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /*HOME*/
+  #home{
+    background: url(intelligence.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto 0;
+    margin: 0;
+    padding: 0;
+  }
+  .brand-wrapper{
+    background: rgba(255, 255, 255, 0.85);
+    background: rgba(240, 240, 240, 0.85);
+    display: table;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .brand-innerwrapper{
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+  }
+  .brand .mybrand{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #home .image{
+    background-color: #353839;
+    background-image: url(mypics1.png);
+    background-size: cover;
+    background-position: 80% 0%;
+    margin: auto;
+    /*margin-top: 80px;*/
+
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    border: 4px solid #fff;
+    border: 4px solid #f90566;
+
+    -webkit-filter: brightness(110%) contrast(110%) grayscale(100%);
+    filter: brightness(110%) contrast(110%) grayscale(100%);    
+  }
+
+  #home .brand{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  #home .brand .mybrand{
+    font-size: 5em;
+    font-size: 10em;
+    font-size: 8em;
+    font-family: 'Iceland', sans-serif;
+    font-weight: 100; 
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+    color: #FF2D45;
+    color: rgb(0,33,23);
+    text-shadow: #17BA86;
+    text-shadow: -4px 0 0 #F90566;
+  }
+  #home .brand p{
+    font-family: 'Hanuman', sans-serif;
+    font-size: 0.65em;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color: rgb(0,33,23);
+  }
+  #home .introduction{
+    padding: 0 20%;
+  }
+  #home ul li{
+    list-style: none;
+  }
+
+
+ /* .......................
+            ABOUT
+  ....................... */
+  #about{
+    background: rgb(217,225,229);
+  }
+  #about p{
+    margin: 0 40px;
+    text-align: justify;
+  }
+/*CSS to center the content*/
+#about .about-item{
+  max-width: 80%;
+  min-height: 600px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+
+
+
+  /* .......................
+          PROJECTS
+  ....................... */
+  .projects{
+    width:100vw;
+    padding: 0 60px;
+  }
+  .work{
+    width:400px;
+    margin:0 auto;
+    padding:10px 20px;
+  }
+
+  .item-wrapper{
+    background: url(imgs/owp.png);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    min-height:390px;
+    border: 4px solid lightgrey;
+  }
+.item{
+    background:#F8FCFC;
+    width:100%;
+    min-height:382px;
+    padding: 16px 24px;
+
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0;
+    
+  }
+  
+  .item-wrapper:hover .item{
+    opacity: 1;
+  } 
+  .projects ul{
+    text-align:center;
+    margin:0;
+    padding: 0;
+  }    
+  .projects ul li{
+    list-style:none;
+    display:inline-block;
+  }
+  .projects .icons li{
+    font-size: 2em;
+    margin: 0 6px;
+    padding: 0;
+  }
+  .projects p{
+    text-align: justify;
+  }
+  .projects .technologies{
+    /*background: lightgrey;*/
+    margin: 0 auto;
+    padding: 8px 0;
+    font-size:1.2em;
+    font-weight:bold;
+    font-style: italic;
+    text-align:center;
+  }
+  .projects .links{
+    /*background: lightseagreen;*/
+    margin: 0;
+    padding: 0;
+  }
+  .projects .links li{
+    margin: 0 10px;
+    padding: 0;
+  }
+ 
+
+
+  /* .......................
+          Skills
+  ....................... */
+  .skills-wrapper{
+    padding: 0;
+  }
+  .skills{
+  }
+  .skills .skill-item{
+    margin: 0 10px;
+    padding: 20px;
+    min-height: 250px;
+
+    border: 1px solid #0e1112;
+    /*rgb(0,33,23)*/
+  }
+  .skills h3{
+    text-align:center;
+    text-align: unset;
+  }
+  .list-group-item{
+    background: unset;
+    border:unset;
+    /*color:#fff;*/
+
+    padding: unset;
+    font-size: 1.2em;
+  }
+  .list-group-item i{
+    font-size: 0.78em;
+
+  }
+
+
+  /* .......................
+          Contact
+  ....................... */
+.contact{
+  background:;
+  background-image: url(locate.png);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+}
+.contact-wrapper{
+  width: 100%;
+  height: 100vh;
+  background: rgba(188,188,188,0.9);
+  margin:0;
+  padding:0 60px;
+}
+.contact .info{
+  background:;
+  text-align:center;
+}
+.social-media{
+  background:;
+  margin:0;
+  padding:0;
+  padding-top:60px;
+  text-align:center;
+}
+.social-media li{
+  list-style:none;
+  display:inline-block;
+  margin:0 6px;
+  padding:0;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+/*Typical Device Breakpoints*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .skills{
+    padding: 0 20px;
+  }
+  .skills .skill-item{
+    width: 240px;
+    margin: 10px auto;
+  }
+  #skills h1, #projects h1, #about h1{
+    padding-bottom: 40px;
+  }
+  #about p{
+    margin: 0;
+    text-align: unset;
+  }
+  .skills p, .projects p{
+    margin: 0;
+    padding: 0;
+    text-align: unset;
+  }
+
+  .social-media{
+    padding-top:40px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #skills h1, #projects h1, #about h1{
+    padding-bottom: 40px;
+  }
+  #about p{
+    margin: 0;
+    text-align: unset;
+  }
+  .skills p, .projects p{
+    margin: 0 40px;
+    padding: 0;
+    text-align: unset;
+  }
+  .skills{
+    padding: 0 20px;
+  }
+  .skills .skill-item{
+    width: 280px;
+    margin: 10px auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .skills{
+    padding: 0 20px;
+  }
+  .skills .skill-item{
+    width: 230px;
+    margin: 10px auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .skills{
+    padding: 0 200px;
+  }
+  .skills{
+    padding: 0 40px;
+  }
+  .skills .skill-item{
+    width: 260px;
+    margin: 10px auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .skills{
+    padding: 0 200px;
+  }
+}
